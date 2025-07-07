@@ -1,0 +1,56 @@
+
+body{
+    height: 100vh;
+    background: linear-gradient(150deg, rgb(241, 187, 187) 0%, rgb(14, 2, 2) 100%);
+    font-family: "Roboto",  sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;   
+}
+.post{
+    background: rgb(238, 229, 229);
+    width: 30rem;
+    height: auto;
+    border-radius: 1%;
+    padding: 0.1rem; 
+    overflow: hidden;
+}
+.post-header, .post-iconsHeader, .post-iconsBody{
+    display: flex;
+    align-items:center;
+}
+.post-header, .post-iconsHeader{
+    gap: 0.5rem;
+}
+.post-header, .post-iconsBody{
+    padding: 0.3rem 1rem;
+} 
+
+.post-header{
+    justify-content: space-between;
+}
+.post-iconsHeader, .post-menu, .post-iconsBody{
+    font-size: 2.5rem;  
+}
+.post-span{
+    font-size: 1rem;
+}
+.post-img, img {
+    width: 30rem;
+    height: auto;    
+}
+.post-iconsBody{
+   list-style: none;
+   gap: 1.3rem;
+}        
+.last-li{
+    margin-left: auto;
+    padding-right: 1rem;
+}
+.post-content, .post-pets{
+    font-size: large;
+    
+}
+.post-pets{
+   margin: 0rem 0.5rem;
+}
