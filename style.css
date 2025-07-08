@@ -1,13 +1,11 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(150deg, rgb(241, 187, 187) 0%, rgb(14, 2, 2) 100%);
+    background: linear-gradient(150deg, rgb(15, 248, 159) 0%, rgb(29, 67, 77) 100%);
     font-family: "Roboto",  sans-serif;
-    display:flex;
-    align-items: center;
     justify-content: center;   
 }
-.post{
+.post-wrapper{
     background: rgb(238, 229, 229);
     width: 30rem;
     height: auto;
@@ -15,7 +13,7 @@ body{
     padding: 0.1rem; 
     overflow: hidden;
 }
-.post-header, .post-iconsHeader, .post-iconsBody{
+body, .post-header, .post-iconsHeader, .post-iconsBody{
     display: flex;
     align-items:center;
 }
@@ -25,20 +23,22 @@ body{
 .post-header, .post-iconsBody{
     padding: 0.3rem 1rem;
 } 
-
 .post-header{
     justify-content: space-between;
 }
 .post-iconsHeader, .post-menu, .post-iconsBody{
     font-size: 2.5rem;  
 }
-.post-span{
+.post-span, .post-pets{
     font-size: 1rem;
 }
-.post-img, img {
-    width: 30rem;
-    height: auto;    
+.post-img-wrapper, .post-img {
+    width:100%; 
 }
+.post-img{
+    height: 26rem;   
+     
+} 
 .post-iconsBody{
    list-style: none;
    gap: 1.3rem;
@@ -47,10 +47,7 @@ body{
     margin-left: auto;
     padding-right: 1rem;
 }
-.post-content, .post-pets{
-    font-size: large;
-    
-}
-.post-pets{
-   margin: 0rem 0.5rem;
+.post-petas-wrapper, .post-pets{
+    margin: 0 0.5rem;
+    text-align: justify;
 }
