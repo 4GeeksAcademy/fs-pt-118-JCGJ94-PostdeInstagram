@@ -20,6 +20,18 @@ body, .post-header, .post-iconsHeader, .post-iconsBody{
 .post-header, .post-iconsHeader{
     gap: 0.5rem;
 }
+.post-icons-ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0.5rem;
+    padding: 0;
+    gap: 0.9rem;
+    width: 100%;
+}
+.last-li {
+    margin-left: auto !important;
+
+}
 .post-header, .post-iconsBody{
     padding: 0.3rem 1rem;
 } 
@@ -36,18 +48,9 @@ body, .post-header, .post-iconsHeader, .post-iconsBody{
     width:100%; 
 }
 .post-img{
-    height: 26rem;   
-     
-} 
-.post-iconsBody{
-   list-style: none;
-   gap: 1.3rem;
-}        
-.last-li{
-    margin-left: auto;
-    padding-right: 1rem;
-}
-.post-petas-wrapper, .post-pets{
+    height: 26rem;     
+}      
+.post-footer-wrapper, .footer-texts{
     margin: 0 0.5rem;
     text-align: justify;
 }
